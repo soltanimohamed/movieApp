@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+header, section {
+    width: 550px;
+}
+
+header {
+    display: flex;
+    padding: 0px 42px;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    background-image: url("images/header-bakcground.png");
+}
+
+header h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.search-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchIput{
+    width: 300px;
+    padding: 9px 13px;
+}
+#btn {
+    width: 120px;
+    padding: 9px 11px 9px 17px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    background: var(--gray-50, #F9FAFB);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    width: 460px;
+    margin-top: 50px;
+
+}
+.movie-img {
+    width: 99px;
+    height: 147px;
+    border-radius: 3px;
+}
+.title-rate, .movie-details, #plot{
+    margin-left: 12px;
+}
+
+.title-rate {
+    display: flex;
+}
+.title-rate h2 {
+    color: #000;
+    font-size: 18px;
+}
+ p {
+    color: #111827;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#addBtn {
+    font-size: 12px;
+}
+#plot {
+    margin-left: 20px;
+}
+
